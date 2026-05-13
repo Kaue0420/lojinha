@@ -135,6 +135,11 @@
       font-weight: bold;
     }
 
+.botoes{
+    display: flex;
+    gap: 15px; /* espaço entre os botões */
+}
+    
     button:hover {
       transform: scale(1.03);
       opacity: 0.9;
@@ -233,8 +238,10 @@
           Solicitação enviada com sucesso! 🧸✨
         </div>
 
-
-
+<div class="botoes">
+    <button class="btn-enviar">Enviar</button>
+    <button class="btn-sair">Sair</button>
+</div>
         
     <!-- BOTÃO SAIR -->
     <button class="btn-sair" onclick="sair()">
